@@ -4,12 +4,23 @@
 
 
 /* || class */
-.intro {background-image:url("photo/angy/nails-logo.png");border: 2px solid black; font-size: 1rem;}
+.intro {background-image:url("photo/angy/nails-logo.png");border: 2px solid black; font-size: 2rem;}
 
+  .column, .columns                           { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+
+.container .sixteen.columns                 { width: 1180px; }
+.container .one-third.column                { width: 380px; }
 
 .a {
   text-align: left;
 }
+.welcome {
+  display:flex;
+
+  justify-content: space-between;
+
+}
+
 .b {
   background-image: url("photo/angy/bodyr.jpg"),url("photo/angy/nails-logo.png");border: 2px solid black;
   }
@@ -129,11 +140,4 @@ main {
 
 article, section {
   flex: 4;
-}
-
-.welcome {
-  display:flex;
-  flex-direction: row;
-  justify-content: space-between;
-  ;
 }

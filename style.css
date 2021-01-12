@@ -4,16 +4,20 @@
 
 
 /* || class */
-.intro {background-image:url("photo/angy/nails-logo.png");border: 2px solid black; font-size: 2rem;}
 
-  .column, .columns                           { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
-
-.container .sixteen.columns                 { width: 1180px; }
-.container .one-third.column                { width: 380px; }
 
 .a {
   text-align: left;
 }
+
+
+
+  .a1, .aa    { float: right; display: inline; margin-left: 10px; margin-right: 10px; }
+
+ .sixteen.columns     { width: 1180px; }
+.one-third.column     { width: 380px; }
+
+
 .welcome {
   display:flex;
 
@@ -25,9 +29,9 @@
   background-image: url("photo/angy/bodyr.jpg"),url("photo/angy/nails-logo.png");border: 2px solid black;
   }
   .d {text-align:right;background-color: white;font-size: large;border: 2px solid black;
+    background-image: url("photo/angy/waxing.jpg")
   }
-  .e {
-    background-image: url("photo/angy/waxing.jpg");border: 2px solid black;}
+.e {text-align: center;font-style: oblique;}
 
 h1{
   color: white;

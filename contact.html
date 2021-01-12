@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact us</title>
+  <link rel="stylesheet" href="css/styles.css" >
+</head>
+<a href="index.html">Home</a>
+
+<body>
+  <h2>Contact information</h2>
+  <p><strong>email:rolandbanita@gmail.com</strong></p>
+  <p><strong>Tel:</strong>07414271534</p>
+  <p><strong>Website:</strong><a href="https://www.itpt.co.uk">ITPT</a></p>
+  <p style="font-size:20px">&#8482;</p>
+
+  <h1>Contact us</h1>
+
+  <form action="http://ss1.ciwcertified.com/cgi-bin/process.pl" method="get">
+
+<fieldset>
+
+<legend>
+  Personal details
+</legend>
+    <label>Company Name
+      <input type="text" name="company-name">
+      </lable>
+      <br>
+      <label>Name</label>
+      <input type="text" name="full-name" required>
+      <br />
+      <label>email</label>
+      <input type="email" name="email" required>
+      <br />
+      <label>Phone Number</label>
+      <input type="number" name="phone" required>
+      <br>
+    </fieldset>
+    <fieldset>
+      <legend>
+        meeting details
+
+
+      </legend>
+
+      <label>Start date</label>
+      <input type="datetime-local" name="datetime" required>
+      <br />
+
+      <br>
+      <label>messege</label>
+      <textarea name="messege" rows="2" cols="15"></textarea>
+      <BR>
+      <label>Chose a day for the meeting</label>
+      <label for="mon">Mon</label>
+      <input type="checkbox" name="mon" value="" accept="" id="mon">
+
+      <label for="tue">Tue</label>
+      <input type="checkbox" name="tue" value="" accept="" id="tue">
+
+      <label for="wed">Wed</label>
+      <input type="checkbox" name="wed" value="" accept="" id="wed">
+
+      <label for="thur">Thur</label>
+      <input type="checkbox" name="thur" value="" accept="" id="thur">
+
+      <label for="fri">Fri</label>
+      <input type="checkbox" name="fri" value="" accept="" id="fri">
+
+      <label for="sun">Sun</label>
+      <input type="checkbox" name="sun" value="" accept="" id="sun">
+
+      <label for="sat">Sat</label>
+      <input type="checkbox" name="sat" value="" accept="" id="sat">
+
+      <br>
+      <label>Chose</label>
+      <label for="am">AM</label>
+      <input type="checkbox" name="am" value="" accept="" id="am">
+
+      <label for="PM">PM</label>
+      <input type="checkbox" name="pm" value="" accept="" id="PM">
+
+
+      <br>
+
+
+      <label for="reason">Chose a reason:</label>
+      <input list="services" id="reason" name="reason" />
+
+      <datalist id="services">
+        <option value="Web design">
+        <option value="Website">
+        <option value="email">
+        <option value="windows">
+
+
+
+      </datalist>
+</fieldset>
+
+      <br>
+      <p>Select a meeting place:</p>
+
+
+        <input type="radio" id="Glasgow" name="location" value="glasgow" checked>
+        <label for="glasgow">Glasgow</label>
+
+
+
+        <input type="radio" id="Airdrie" name="location" value="airdrie">
+        <label for="airdrie">Airdrie</label>
+
+
+
+        <input type="radio" id="Whitburn" name="location" value="whitburn">
+        <label for="whitburn">Whitburn</label>
+
+
+      <input type="submit" value="Send Request">
+
+  </form>
+
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+
+
+.a {
+  text-align: right;
+}
+.a2, .aa2 {text-align: center;}
+
+
+.aa    { float: right;  margin-left: 10px; margin-right: 10px; }
+.aa1 { float: left;  margin-left: 10px; margin-right: 10px; }
+.a2 { display: inline; margin-left: 10px; margin-right: 10px; }
+.aa2 {   margin-left: 10px; margin-right: 10px; }
+
+
+
+.welcome {
+
+
+  justify-content: space-between;
+  text-align: center;
+
+}
